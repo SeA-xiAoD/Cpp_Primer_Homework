@@ -7,6 +7,8 @@
         "new": "cpp",
         "stdexcept": "cpp",
         "typeinfo": "cpp",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "regex": "cpp",
+        "system_error": "cpp"
     }
 }
