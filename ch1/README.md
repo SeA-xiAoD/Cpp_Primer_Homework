@@ -3,7 +3,7 @@
 #
 
 # 1.2
-说实话用命令行编译出来没有看到太多的区别，因为都没有输出。经过@huangmingchuan大佬的提点，发现要在执行后加上<code>echo %errorlevel%</code>，然而我在Mac上执行没有效果，直接输出了errorlevel，百度之后发现，这个是Windows才有的。然后我又查Mac下是用<code>%?</code>来作为同样的作用，然而我发现无论return的是0还是其他的数，用<code>%?</code>输出的都是0，然后我随便瞎在shell里输入个<code>cd 12345</code>，结果输出的<code>echo %?</code>输出的是1，看来对Linux理解还不到位。
+说实话用命令行编译出来没有看到太多的区别，因为都没有输出。经过@huangmingchuan大佬的提点，发现要在执行后加上<pre><code>echo %errorlevel%</code></pre>，然而我在Mac上执行没有效果，直接输出了errorlevel，百度之后发现，这个是Windows才有的。然后我又查Mac下是用<pre><code>%?</code></pre>来作为同样的作用，然而我发现无论return的是0还是其他的数，用<pre><code>%?</code></pre>输出的都是0，然后我随便瞎在shell里输入个<pre><code>cd 12345</code></pre>，结果输出的<pre><code>echo %?</code></pre>输出的是1，看来对Linux理解还不到位。
 #
 
 # 1.3
