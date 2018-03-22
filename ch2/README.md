@@ -210,3 +210,7 @@ decltype 处理顶层const和引用的方式与 auto不同，decltype会将顶�
 # 2.41
 见代码。
 #
+
+# 2.42
+见代码。
+#
