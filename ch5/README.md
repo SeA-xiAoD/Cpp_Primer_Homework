@@ -95,10 +95,10 @@ sum += val, ++val;
 #
 
 # 5.22
-int sz = get_size()  
+int sz = get_size();  
 while(sz <= 0)  
 {  
-    sz = get_size()  
+    sz = get_size();  
 }
 #
 
