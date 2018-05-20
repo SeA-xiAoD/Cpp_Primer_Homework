@@ -32,6 +32,15 @@
         "__tree": "cpp",
         "iterator": "cpp",
         "stack": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "iosfwd": "cpp",
+        "cstddef": "cpp",
+        "type_traits": "cpp",
+        "istream": "cpp",
+        "ios": "cpp",
+        "__functional_base": "cpp",
+        "locale": "cpp",
+        "memory": "cpp",
+        "tuple": "cpp"
     }
 }

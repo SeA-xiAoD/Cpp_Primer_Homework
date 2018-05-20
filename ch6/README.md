@@ -69,7 +69,7 @@ T传递T这个类型的实参拷贝给形参，在函数内改变T一般不会�
 见代码。
 #
 
-# 5.18
+# 6.18
 (a)bool compare(matrix a, matrix b);  
 (b)vector<int>::iteratir change_val(int i, vector<int>::iteratir vi);
 #
