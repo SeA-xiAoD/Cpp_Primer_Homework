@@ -41,6 +41,7 @@
         "__functional_base": "cpp",
         "locale": "cpp",
         "memory": "cpp",
-        "tuple": "cpp"
+        "tuple": "cpp",
+        "forward_list": "cpp"
     }
 }
